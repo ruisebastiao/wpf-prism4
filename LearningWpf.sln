@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningWpf", "LearningWpf\LearningWpf.csproj", "{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningWpf.Common", "LearningWpf.Common\LearningWpf.Common.csproj", "{745E56E4-964E-4B8D-908A-85DF659D0206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningWpf.ModuleA", "LearningWpf.ModuleA\LearningWpf.ModuleA.csproj", "{88D3EC3A-5516-4278-A612-466CF6B91D9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LearningWpf.Library", "LearningWpf.Library", "{C216A068-B16D-4C15-A838-834C6105930D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prism", "Prism", "{2B9C3503-9755-4D13-B7C2-A9CE0AB7244B}"
+	ProjectSection(SolutionItems) = preProject
+		References\Prism4\Microsoft.Practices.Prism.dll = References\Prism4\Microsoft.Practices.Prism.dll
+		References\Prism4\Microsoft.Practices.Prism.UnityExtensions.dll = References\Prism4\Microsoft.Practices.Prism.UnityExtensions.dll
+		References\Prism4\Microsoft.Practices.ServiceLocation.dll = References\Prism4\Microsoft.Practices.ServiceLocation.dll
+		References\Prism4\Microsoft.Practices.Unity.dll = References\Prism4\Microsoft.Practices.Unity.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ribbon", "Ribbon", "{95D5EEE1-3AE9-471F-9554-964625E0BFAF}"
+	ProjectSection(SolutionItems) = preProject
+		References\Ribbon\Microsoft.Windows.Shell.dll = References\Ribbon\Microsoft.Windows.Shell.dll
+		References\Ribbon\RibbonControlsLibrary.dll = References\Ribbon\RibbonControlsLibrary.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FsTools", "FsTools", "{3023E13C-C778-4FD3-B89F-CE66594C890C}"
+	ProjectSection(SolutionItems) = preProject
+		References\FsTools\FsTaskButton.dll = References\FsTools\FsTaskButton.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Debug|x86.ActiveCfg = Debug|x86
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Debug|x86.Build.0 = Debug|x86
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Release|Any CPU.ActiveCfg = Release|x86
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Release|x86.ActiveCfg = Release|x86
+		{8A051EE8-2F1E-4D3A-9A21-2191D31CC97E}.Release|x86.Build.0 = Release|x86
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{745E56E4-964E-4B8D-908A-85DF659D0206}.Release|x86.ActiveCfg = Release|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{88D3EC3A-5516-4278-A612-466CF6B91D9A}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B9C3503-9755-4D13-B7C2-A9CE0AB7244B} = {C216A068-B16D-4C15-A838-834C6105930D}
+		{95D5EEE1-3AE9-471F-9554-964625E0BFAF} = {C216A068-B16D-4C15-A838-834C6105930D}
+		{3023E13C-C778-4FD3-B89F-CE66594C890C} = {C216A068-B16D-4C15-A838-834C6105930D}
+	EndGlobalSection
+EndGlobal
