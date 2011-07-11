@@ -12,6 +12,13 @@
             <GradientStop Color="#FFE7E9EB" Offset="0" />
             <GradientStop Color="#FFC6CACF" Offset="1" />
         </LinearGradientBrush>
+
+        <Style x:Key="MenuItemStyle" TargetType="ribbon:RibbonApplicationMenuItem">
+            <Setter Property="Header" Value="{Binding Header}"/>
+            <Setter Property="Command" Value="{Binding Command}"/>
+            <Setter Property="ImageSource" Value="{Binding ImageSource}"/>
+            <Setter Property="IsCheckable" Value="True"/>
+        </Style>
     </ribbon:RibbonWindow.Resources>
 
     <ribbon:RibbonWindow.Background>
@@ -36,11 +43,11 @@
                 prism:RegionManager.RegionName="RibbonRegion">
 
             <!-- Ribbon ApplicationMenu (defined here) -->
-            <ribbon:Ribbon.ApplicationMenu>
-                <ribbon:RibbonApplicationMenu SmallImageSource="Images\ribbon.png">
-                    <ribbon:RibbonApplicationMenuItem Header="Hello _Ribbon"
+            <ribbon:Ribbon.ApplicationMenu >
+                <ribbon:RibbonApplicationMenu SmallImageSource="Images\ribbon.png" ItemsSource="{Binding MenuItems}" ItemContainerStyle="{StaticResource MenuItemStyle}">
+                    <!--<ribbon:RibbonApplicationMenuItem Header="Hello _Ribbon"
                                                       x:Name="MenuItem1"
-                                                      ImageSource="Images\LargeIcon.png"/>
+                                                      ImageSource="Images\LargeIcon.png"/>-->
                 </ribbon:RibbonApplicationMenu>
             </ribbon:Ribbon.ApplicationMenu>
 
