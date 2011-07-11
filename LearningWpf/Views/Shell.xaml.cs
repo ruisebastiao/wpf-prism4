@@ -1,4 +1,5 @@
 ﻿using Microsoft.Windows.Controls.Ribbon;
+using LearningWpf.ViewModels;
 
 namespace LearningWpf.Views
 {
@@ -10,6 +11,7 @@ namespace LearningWpf.Views
         public Shell()
         {
             InitializeComponent();
+            this.DataContext = new ShellViewModel();
         }
     }
 }
