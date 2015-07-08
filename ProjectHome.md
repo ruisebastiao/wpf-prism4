@@ -1,0 +1,1 @@
+An example of using WPF with prism v4
